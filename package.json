@@ -1,0 +1,29 @@
+{
+  "name": "nerd-font-preview",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.node.json && vite build",
+    "dev": "vite --host",
+    "fmt": "oxfmt",
+    "fonts": "node scripts/fonts.mjs",
+    "lint": "oxlint",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxfmt": "^0.75.0",
+    "oxlint": "^1.90.0",
+    "oxlint-tsgolint": "^7.0.2005",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

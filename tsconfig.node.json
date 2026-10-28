@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["node"],
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["vite.config.ts", "scripts/downloads.ts", "scripts/release.mjs"]
+}

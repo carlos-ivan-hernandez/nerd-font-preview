@@ -1,0 +1,872 @@
+{
+  "tag": "v3.5.1",
+  "fonts": [
+    {
+      "id": "0xProto",
+      "group": "0xProto",
+      "url": "fonts/0xProtoNerdFont-Regular.ttf",
+      "monoUrl": "fonts/0xProtoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/0xProto.zip",
+      "archive": {
+        "name": "0xProto.tar.xz",
+        "size": 2275004
+      }
+    },
+    {
+      "id": "3270",
+      "group": "3270",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/3270/3270NerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/3270/3270NerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/3270.zip",
+      "size": 2748388,
+      "monoSize": 2742224
+    },
+    {
+      "id": "AdwaitaMono",
+      "group": "AdwaitaMono",
+      "url": "fonts/AdwaitaMonoNerdFont-Regular.ttf",
+      "monoUrl": "fonts/AdwaitaMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AdwaitaMono.zip",
+      "archive": {
+        "name": "AdwaitaMono.tar.xz",
+        "size": 3567360
+      }
+    },
+    {
+      "id": "Agave",
+      "group": "Agave",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Agave/AgaveNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Agave/AgaveNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Agave.zip",
+      "size": 2708460,
+      "monoSize": 2681420
+    },
+    {
+      "id": "AnnotationM",
+      "group": "AnnotationMono",
+      "url": "fonts/AnnotationMNerdFont-Regular.ttf",
+      "monoUrl": "fonts/AnnotationMNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AnnotationMono.zip",
+      "archive": {
+        "name": "AnnotationMono.tar.xz",
+        "size": 2868176
+      }
+    },
+    {
+      "id": "AnonymicePro",
+      "group": "AnonymousPro",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/AnonymousPro/AnonymiceProNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/AnonymousPro/AnonymiceProNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AnonymousPro.zip",
+      "size": 2623348,
+      "monoSize": 2611480
+    },
+    {
+      "id": "AtkynsonMono",
+      "group": "AtkinsonHyperlegibleMono",
+      "url": "fonts/AtkynsonMonoNerdFont-Regular.otf",
+      "monoUrl": "fonts/AtkynsonMonoNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AtkinsonHyperlegibleMono.zip",
+      "archive": {
+        "name": "AtkinsonHyperlegibleMono.tar.xz",
+        "size": 3085304
+      }
+    },
+    {
+      "id": "AurulentSansM",
+      "group": "AurulentSansMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/AurulentSansMono/AurulentSansMNerdFont-Regular.otf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/AurulentSansMono/AurulentSansMNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AurulentSansMono.zip",
+      "size": 2234740,
+      "monoSize": 2308360
+    },
+    {
+      "id": "BigBlueTerm437",
+      "group": "BigBlueTerminal",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/BigBlueTerminal/BigBlueTerm437NerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/BigBlueTerminal/BigBlueTerm437NerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/BigBlueTerminal.zip",
+      "size": 2344828,
+      "monoSize": 2382308
+    },
+    {
+      "id": "BigBlueTermPlus",
+      "group": "BigBlueTerminal",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/BigBlueTerminal/BigBlueTermPlusNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/BigBlueTerminal/BigBlueTermPlusNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/BigBlueTerminal.zip",
+      "size": 2389972,
+      "monoSize": 2427452
+    },
+    {
+      "id": "BitstromWera",
+      "group": "BitstreamVeraSansMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/BitstreamVeraSansMono/BitstromWeraNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/BitstreamVeraSansMono/BitstromWeraNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/BitstreamVeraSansMono.zip",
+      "size": 2521988,
+      "monoSize": 2527648
+    },
+    {
+      "id": "BlexMono",
+      "group": "IBMPlexMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/IBMPlexMono/BlexMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/IBMPlexMono/BlexMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IBMPlexMono.zip",
+      "size": 2453264,
+      "monoSize": 2456564
+    },
+    {
+      "id": "CaskaydiaCove",
+      "group": "CascadiaCode",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/CascadiaCode/CaskaydiaCoveNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CascadiaCode.zip",
+      "size": 2959676,
+      "monoSize": 2931984
+    },
+    {
+      "id": "CaskaydiaMono",
+      "group": "CascadiaMono",
+      "url": "fonts/CaskaydiaMonoNerdFont-Regular.ttf",
+      "monoUrl": "fonts/CaskaydiaMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CascadiaMono.zip",
+      "archive": {
+        "name": "CascadiaMono.tar.xz",
+        "size": 3577856
+      }
+    },
+    {
+      "id": "CodeNewRoman",
+      "group": "CodeNewRoman",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/CodeNewRoman/CodeNewRomanNerdFont-Regular.otf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/CodeNewRoman/CodeNewRomanNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CodeNewRoman.zip",
+      "size": 7099708,
+      "monoSize": 7370092
+    },
+    {
+      "id": "ComicShannsMono",
+      "group": "ComicShannsMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ComicShannsMono/ComicShannsMonoNerdFont-Regular.otf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ComicShannsMono/ComicShannsMonoNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ComicShannsMono.zip",
+      "size": 2381612,
+      "monoSize": 2440448
+    },
+    {
+      "id": "CommitMono",
+      "group": "CommitMono",
+      "url": "fonts/CommitMonoNerdFont-Regular.otf",
+      "monoUrl": "fonts/CommitMonoNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CommitMono.zip",
+      "archive": {
+        "name": "CommitMono.tar.xz",
+        "size": 2712752
+      }
+    },
+    {
+      "id": "Cousine",
+      "group": "Cousine",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Cousine/CousineNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Cousine/CousineNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Cousine.zip",
+      "size": 2791760,
+      "monoSize": 2768760
+    },
+    {
+      "id": "D2KodingLigature",
+      "group": "D2Coding",
+      "url": "fonts/D2KodingLigatureNerdFont-Regular.ttf",
+      "monoUrl": "fonts/D2KodingLigatureNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/D2Coding.zip",
+      "archive": {
+        "name": "D2Coding.tar.xz",
+        "size": 5351588
+      }
+    },
+    {
+      "id": "DaddyTimeMono",
+      "group": "DaddyTimeMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DaddyTimeMono.zip",
+      "size": 2598540,
+      "monoSize": 2524300
+    },
+    {
+      "id": "DejaVuSansM",
+      "group": "DejaVuSansMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/DejaVuSansMono/DejaVuSansMNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/DejaVuSansMono/DejaVuSansMNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DejaVuSansMono.zip",
+      "size": 2808632,
+      "monoSize": 2814292
+    },
+    {
+      "id": "DepartureMono",
+      "group": "DepartureMono",
+      "url": "fonts/DepartureMonoNerdFont-Regular.otf",
+      "monoUrl": "fonts/DepartureMonoNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DepartureMono.zip",
+      "archive": {
+        "name": "DepartureMono.tar.xz",
+        "size": 2055128
+      }
+    },
+    {
+      "id": "DroidSansM",
+      "group": "DroidSansMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/DroidSansMono/DroidSansMNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DroidSansMono.zip",
+      "size": 2450620,
+      "monoSize": 2533520
+    },
+    {
+      "id": "EnvyCodeR",
+      "group": "EnvyCodeR",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/EnvyCodeR/EnvyCodeRNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/EnvyCodeR/EnvyCodeRNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/EnvyCodeR.zip",
+      "size": 2561296,
+      "monoSize": 2546792
+    },
+    {
+      "id": "FantasqueSansM",
+      "group": "FantasqueSansMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/FantasqueSansMono/FantasqueSansMNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/FantasqueSansMono/FantasqueSansMNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FantasqueSansMono.zip",
+      "size": 2642968,
+      "monoSize": 2621328
+    },
+    {
+      "id": "FiraCode",
+      "group": "FiraCode",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/FiraCode/FiraCodeNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/FiraCode/FiraCodeNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FiraCode.zip",
+      "size": 2752724,
+      "monoSize": 2757772
+    },
+    {
+      "id": "FiraMono",
+      "group": "FiraMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/FiraMono/FiraMonoNerdFont-Regular.otf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/FiraMono/FiraMonoNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FiraMono.zip",
+      "size": 2351556,
+      "monoSize": 2398772
+    },
+    {
+      "id": "GeistMono",
+      "group": "GeistMono",
+      "url": "fonts/GeistMonoNerdFont-Regular.otf",
+      "monoUrl": "fonts/GeistMonoNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/GeistMono.zip",
+      "archive": {
+        "name": "GeistMono.tar.xz",
+        "size": 5268020
+      }
+    },
+    {
+      "id": "GohuFont11",
+      "group": "Gohu",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Gohu/11/GohuFont11NerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Gohu/11/GohuFont11NerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Gohu.zip",
+      "size": 2509148,
+      "monoSize": 2500744
+    },
+    {
+      "id": "GohuFont14",
+      "group": "Gohu",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Gohu/14/GohuFont14NerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Gohu/14/GohuFont14NerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Gohu.zip",
+      "size": 2513168,
+      "monoSize": 2507424
+    },
+    {
+      "id": "GohuFontuni11",
+      "group": "Gohu",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Gohu/uni-11/GohuFontuni11NerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Gohu/uni-11/GohuFontuni11NerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Gohu.zip",
+      "size": 2689628,
+      "monoSize": 2656048
+    },
+    {
+      "id": "GohuFontuni14",
+      "group": "Gohu",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Gohu/uni-14/GohuFontuni14NerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Gohu/uni-14/GohuFontuni14NerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Gohu.zip",
+      "size": 2593988,
+      "monoSize": 2588304
+    },
+    {
+      "id": "GoMono",
+      "group": "Go-Mono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Go-Mono/GoMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Go-Mono/GoMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Go-Mono.zip",
+      "size": 2643184,
+      "monoSize": 2650188
+    },
+    {
+      "id": "GoogleSansCode",
+      "group": "GoogleSansCode",
+      "url": "fonts/GoogleSansCodeNerdFont-Regular.ttf",
+      "monoUrl": "fonts/GoogleSansCodeNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/GoogleSansCode.zip",
+      "archive": {
+        "name": "GoogleSansCode.tar.xz",
+        "size": 2894120
+      }
+    },
+    {
+      "id": "Hack",
+      "group": "Hack",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Hack/HackNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Hack/HackNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hack.zip",
+      "size": 2798160,
+      "monoSize": 2778948
+    },
+    {
+      "id": "Hasklug",
+      "group": "Hasklig",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Hasklig/HasklugNerdFont-Regular.otf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Hasklig/HasklugNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hasklig.zip",
+      "size": 2357644,
+      "monoSize": 2427120
+    },
+    {
+      "id": "HeavyData",
+      "group": "HeavyData",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/HeavyData/HeavyDataNerdFont-Regular.ttf",
+      "monoUrl": null,
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/HeavyData.zip",
+      "size": 2480896,
+      "monoSize": null
+    },
+    {
+      "id": "Hurmit",
+      "group": "Hermit",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Hermit/HurmitNerdFont-Regular.otf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Hermit/HurmitNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hermit.zip",
+      "size": 2266956,
+      "monoSize": 2316168
+    },
+    {
+      "id": "iMWritingMono",
+      "group": "iA-Writer",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/iA-Writer/Mono/iMWritingMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/iA-Writer/Mono/iMWritingMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/iA-Writer.zip",
+      "size": 2400444,
+      "monoSize": 2413788
+    },
+    {
+      "id": "Inconsolata",
+      "group": "Inconsolata",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Inconsolata/InconsolataNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Inconsolata/InconsolataNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Inconsolata.zip",
+      "size": 2415732,
+      "monoSize": 2396084
+    },
+    {
+      "id": "InconsolataGo",
+      "group": "InconsolataGo",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/InconsolataGo/InconsolataGoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/InconsolataGo/InconsolataGoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/InconsolataGo.zip",
+      "size": 2392572,
+      "monoSize": 2373916
+    },
+    {
+      "id": "InconsolataLGC",
+      "group": "InconsolataLGC",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/InconsolataLGC/InconsolataLGCNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/InconsolataLGC/InconsolataLGCNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/InconsolataLGC.zip",
+      "size": 2567396,
+      "monoSize": 2570108
+    },
+    {
+      "id": "IntoneMono",
+      "group": "IntelOneMono",
+      "url": "fonts/IntoneMonoNerdFont-Regular.ttf",
+      "monoUrl": "fonts/IntoneMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IntelOneMono.zip",
+      "archive": {
+        "name": "IntelOneMono.tar.xz",
+        "size": 2523236
+      }
+    },
+    {
+      "id": "Iosevka",
+      "group": "Iosevka",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Iosevka/IosevkaNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Iosevka/IosevkaNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Iosevka.zip",
+      "size": 14447488,
+      "monoSize": 14384448
+    },
+    {
+      "id": "IosevkaTerm",
+      "group": "IosevkaTerm",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/IosevkaTerm/IosevkaTermNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/IosevkaTerm/IosevkaTermNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IosevkaTerm.zip",
+      "size": 14442592,
+      "monoSize": 14377008
+    },
+    {
+      "id": "IosevkaTermSlab",
+      "group": "IosevkaTermSlab",
+      "url": "fonts/IosevkaTermSlabNerdFont-Regular.ttf",
+      "monoUrl": "fonts/IosevkaTermSlabNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IosevkaTermSlab.zip",
+      "archive": {
+        "name": "IosevkaTermSlab.tar.xz",
+        "size": 55901188
+      }
+    },
+    {
+      "id": "JetBrainsMono",
+      "group": "JetBrainsMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/JetBrainsMono/Ligatures/JetBrainsMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/JetBrainsMono/Ligatures/JetBrainsMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/JetBrainsMono.zip",
+      "size": 2571596,
+      "monoSize": 2573248
+    },
+    {
+      "id": "JetBrainsMonoNL",
+      "group": "JetBrainsMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/JetBrainsMono/NoLigatures/JetBrainsMonoNLNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/JetBrainsMono/NoLigatures/JetBrainsMonoNLNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/JetBrainsMono.zip",
+      "size": 2489128,
+      "monoSize": 2491088
+    },
+    {
+      "id": "Lekton",
+      "group": "Lekton",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Lekton/LektonNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Lekton/LektonNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Lekton.zip",
+      "size": 2425656,
+      "monoSize": 2406252
+    },
+    {
+      "id": "Lilex",
+      "group": "Lilex",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Lilex/LilexNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Lilex/LilexNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Lilex.zip",
+      "size": 2539772,
+      "monoSize": 2542304
+    },
+    {
+      "id": "LiterationMono",
+      "group": "LiberationMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/LiberationMono/LiterationMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/LiberationMono/LiterationMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/LiberationMono.zip",
+      "size": 2810180,
+      "monoSize": 2787008
+    },
+    {
+      "id": "M+1Code",
+      "group": "MPlus",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/MPlus/M_Plus_1_code/M+1CodeNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/MPlus/M_Plus_1_code/M+1CodeNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/MPlus.zip",
+      "size": 4077308,
+      "monoSize": 4045984
+    },
+    {
+      "id": "M+CodeLat50",
+      "group": "MPlus",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/MPlus/M_Plus_code_latin50/M+CodeLat50NerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/MPlus/M_Plus_code_latin50/M+CodeLat50NerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/MPlus.zip",
+      "size": 2410044,
+      "monoSize": 2390736
+    },
+    {
+      "id": "M+CodeLat60",
+      "group": "MPlus",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/MPlus/M_Plus_code_latin60/M+CodeLat60NerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/MPlus/M_Plus_code_latin60/M+CodeLat60NerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/MPlus.zip",
+      "size": 2402052,
+      "monoSize": 2403508
+    },
+    {
+      "id": "MartianMono",
+      "group": "MartianMono",
+      "url": "fonts/MartianMonoNerdFont-Regular.ttf",
+      "monoUrl": "fonts/MartianMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/MartianMono.zip",
+      "archive": {
+        "name": "MartianMono.tar.xz",
+        "size": 3325184
+      }
+    },
+    {
+      "id": "MesloLGL",
+      "group": "Meslo",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/L/MesloLGLNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/L/MesloLGLNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Meslo.zip",
+      "size": 2965848,
+      "monoSize": 2944676
+    },
+    {
+      "id": "MesloLGLDZ",
+      "group": "Meslo",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/L-DZ/MesloLGLDZNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/L-DZ/MesloLGLDZNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Meslo.zip",
+      "size": 2965884,
+      "monoSize": 2944712
+    },
+    {
+      "id": "MesloLGM",
+      "group": "Meslo",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/M/MesloLGMNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/M/MesloLGMNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Meslo.zip",
+      "size": 2965860,
+      "monoSize": 2944452
+    },
+    {
+      "id": "MesloLGMDZ",
+      "group": "Meslo",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/M-DZ/MesloLGMDZNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/M-DZ/MesloLGMDZNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Meslo.zip",
+      "size": 2965896,
+      "monoSize": 2944488
+    },
+    {
+      "id": "MesloLGS",
+      "group": "Meslo",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/S/MesloLGSNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/S/MesloLGSNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Meslo.zip",
+      "size": 2965620,
+      "monoSize": 2944312
+    },
+    {
+      "id": "MesloLGSDZ",
+      "group": "Meslo",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/S-DZ/MesloLGSDZNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Meslo/S-DZ/MesloLGSDZNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Meslo.zip",
+      "size": 2965656,
+      "monoSize": 2944348
+    },
+    {
+      "id": "MonaspiceAr",
+      "group": "Monaspace",
+      "url": "fonts/MonaspiceArNerdFont-Regular.otf",
+      "monoUrl": "fonts/MonaspiceArNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monaspace.zip",
+      "archive": {
+        "name": "Monaspace.tar.xz",
+        "size": 19257096
+      }
+    },
+    {
+      "id": "MonaspiceKr",
+      "group": "Monaspace",
+      "url": "fonts/MonaspiceKrNerdFont-Regular.otf",
+      "monoUrl": "fonts/MonaspiceKrNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monaspace.zip",
+      "archive": {
+        "name": "Monaspace.tar.xz",
+        "size": 19257096
+      }
+    },
+    {
+      "id": "MonaspiceNe",
+      "group": "Monaspace",
+      "url": "fonts/MonaspiceNeNerdFont-Regular.otf",
+      "monoUrl": "fonts/MonaspiceNeNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monaspace.zip",
+      "archive": {
+        "name": "Monaspace.tar.xz",
+        "size": 19257096
+      }
+    },
+    {
+      "id": "MonaspiceRn",
+      "group": "Monaspace",
+      "url": "fonts/MonaspiceRnNerdFont-Regular.otf",
+      "monoUrl": "fonts/MonaspiceRnNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monaspace.zip",
+      "archive": {
+        "name": "Monaspace.tar.xz",
+        "size": 19257096
+      }
+    },
+    {
+      "id": "MonaspiceXe",
+      "group": "Monaspace",
+      "url": "fonts/MonaspiceXeNerdFont-Regular.otf",
+      "monoUrl": "fonts/MonaspiceXeNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monaspace.zip",
+      "archive": {
+        "name": "Monaspace.tar.xz",
+        "size": 19257096
+      }
+    },
+    {
+      "id": "Monofur",
+      "group": "Monofur",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Monofur/MonofurNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Monofur/MonofurNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monofur.zip",
+      "size": 2673848,
+      "monoSize": 2643524
+    },
+    {
+      "id": "Monoid",
+      "group": "Monoid",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Monoid/MonoidNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Monoid/MonoidNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monoid.zip",
+      "size": 2463492,
+      "monoSize": 2499976
+    },
+    {
+      "id": "Mononoki",
+      "group": "Mononoki",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Mononoki/MononokiNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Mononoki/MononokiNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Mononoki.zip",
+      "size": 2446572,
+      "monoSize": 2432116
+    },
+    {
+      "id": "NotoMono",
+      "group": "Noto",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Noto/Mono/NotoMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Noto/Mono/NotoMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Noto.zip",
+      "size": 2596808,
+      "monoSize": 2601460
+    },
+    {
+      "id": "NotoSansM",
+      "group": "Noto",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Noto/Sans-Mono/NotoSansMNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Noto/Sans-Mono/NotoSansMNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Noto.zip",
+      "size": 2726336,
+      "monoSize": 2723784
+    },
+    {
+      "id": "OpenDyslexicM",
+      "group": "OpenDyslexic",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/OpenDyslexic/Mono-Regular/OpenDyslexicMNerdFont-Regular.otf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/OpenDyslexic/Mono-Regular/OpenDyslexicMNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/OpenDyslexic.zip",
+      "size": 2261624,
+      "monoSize": 2352304
+    },
+    {
+      "id": "OverpassM",
+      "group": "Overpass",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Overpass/Mono/OverpassMNerdFont-Regular.otf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Overpass/Mono/OverpassMNerdFontMono-Regular.otf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Overpass.zip",
+      "size": 2315772,
+      "monoSize": 2363000
+    },
+    {
+      "id": "ProFontIIx",
+      "group": "ProFont",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ProFont/profontiix/ProFontIIxNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ProFont/profontiix/ProFontIIxNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ProFont.zip",
+      "size": 2383268,
+      "monoSize": 2391164
+    },
+    {
+      "id": "ProFontWindows",
+      "group": "ProFont",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ProFont/ProFontWinTweaked/ProFontWindowsNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ProFont/ProFontWinTweaked/ProFontWindowsNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ProFont.zip",
+      "size": 2367504,
+      "monoSize": 2369460
+    },
+    {
+      "id": "ProggyClean",
+      "group": "ProggyClean",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ProggyClean/Regular/ProggyCleanNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ProggyClean/Regular/ProggyCleanNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ProggyClean.zip",
+      "size": 2544012,
+      "monoSize": 2486116
+    },
+    {
+      "id": "ProggyCleanCE",
+      "group": "ProggyClean",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ProggyClean/Latin2/ProggyCleanCENerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ProggyClean/Latin2/ProggyCleanCENerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ProggyClean.zip",
+      "size": 2547680,
+      "monoSize": 2489784
+    },
+    {
+      "id": "ProggyCleanSZ",
+      "group": "ProggyClean",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ProggyClean/SlashedZero/ProggyCleanSZNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ProggyClean/SlashedZero/ProggyCleanSZNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ProggyClean.zip",
+      "size": 2544052,
+      "monoSize": 2486156
+    },
+    {
+      "id": "RecMonoCasual",
+      "group": "Recursive",
+      "url": "fonts/RecMonoCasualNerdFont-Regular.ttf",
+      "monoUrl": "fonts/RecMonoCasualNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Recursive.zip",
+      "archive": {
+        "name": "Recursive.tar.xz",
+        "size": 3819032
+      }
+    },
+    {
+      "id": "RecMonoDuotone",
+      "group": "Recursive",
+      "url": "fonts/RecMonoDuotoneNerdFont-Regular.ttf",
+      "monoUrl": "fonts/RecMonoDuotoneNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Recursive.zip",
+      "archive": {
+        "name": "Recursive.tar.xz",
+        "size": 3819032
+      }
+    },
+    {
+      "id": "RecMonoLinear",
+      "group": "Recursive",
+      "url": "fonts/RecMonoLinearNerdFont-Regular.ttf",
+      "monoUrl": "fonts/RecMonoLinearNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Recursive.zip",
+      "archive": {
+        "name": "Recursive.tar.xz",
+        "size": 3819032
+      }
+    },
+    {
+      "id": "RecMonoSmCasual",
+      "group": "Recursive",
+      "url": "fonts/RecMonoSmCasualNerdFont-Regular.ttf",
+      "monoUrl": "fonts/RecMonoSmCasualNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Recursive.zip",
+      "archive": {
+        "name": "Recursive.tar.xz",
+        "size": 3819032
+      }
+    },
+    {
+      "id": "RobotoMono",
+      "group": "RobotoMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/RobotoMono/RobotoMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/RobotoMono/RobotoMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/RobotoMono.zip",
+      "size": 2565648,
+      "monoSize": 2572816
+    },
+    {
+      "id": "SauceCodePro",
+      "group": "SourceCodePro",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/SourceCodePro/SauceCodeProNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/SourceCodePro/SauceCodeProNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/SourceCodePro.zip",
+      "size": 2470652,
+      "monoSize": 2495268
+    },
+    {
+      "id": "ShureTechMono",
+      "group": "ShareTechMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ShareTechMono/ShureTechMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/ShareTechMono/ShureTechMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ShareTechMono.zip",
+      "size": 2337276,
+      "monoSize": 2336172
+    },
+    {
+      "id": "SpaceMono",
+      "group": "SpaceMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/SpaceMono/SpaceMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/SpaceMono/SpaceMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/SpaceMono.zip",
+      "size": 2410716,
+      "monoSize": 2415520
+    },
+    {
+      "id": "Terminess",
+      "group": "Terminus",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Terminus/TerminessNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/Terminus/TerminessNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Terminus.zip",
+      "size": 2742276,
+      "monoSize": 2747608
+    },
+    {
+      "id": "UbuntuMono",
+      "group": "UbuntuMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/UbuntuMono/UbuntuMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/UbuntuMono/UbuntuMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/UbuntuMono.zip",
+      "size": 2469220,
+      "monoSize": 2474552
+    },
+    {
+      "id": "UbuntuSansMono",
+      "group": "UbuntuSans",
+      "url": "fonts/UbuntuSansMonoNerdFont-Regular.ttf",
+      "monoUrl": "fonts/UbuntuSansMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/UbuntuSans.zip",
+      "archive": {
+        "name": "UbuntuSans.tar.xz",
+        "size": 4273464
+      }
+    },
+    {
+      "id": "VictorMono",
+      "group": "VictorMono",
+      "url": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/VictorMono/VictorMonoNerdFont-Regular.ttf",
+      "monoUrl": "https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.5.1/patched-fonts/VictorMono/VictorMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/VictorMono.zip",
+      "size": 2544688,
+      "monoSize": 2528020
+    },
+    {
+      "id": "ZedMono",
+      "group": "ZedMono",
+      "url": "fonts/ZedMonoNerdFont-Regular.ttf",
+      "monoUrl": "fonts/ZedMonoNerdFontMono-Regular.ttf",
+      "download": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ZedMono.zip",
+      "archive": {
+        "name": "ZedMono.tar.xz",
+        "size": 48514336
+      }
+    }
+  ]
+}
